@@ -37,11 +37,6 @@
     <ClInclude Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Player.h" />
     <ClInclude Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\State.h" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Crazy Zombie.vcxproj" />
-    <None Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Crazy Zombie.vcxproj.filters" />
-    <None Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Crazy Zombie.vcxproj.user" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -137,7 +132,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>C:\Users\Topfee\Desktop\SFML Library\SFML-2.5.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>sfml-main-d.lib;sfml-system-d.lib;sfml-graphics-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-network-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>sfml-main.lib;sfml-system.lib;sfml-graphics.lib;sfml-window.lib;sfml-audio.lib;sfml-network.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

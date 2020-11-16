@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{8762807c-7de4-4d28-becd-30cfa6350b38}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Bullet.cpp">
@@ -30,48 +33,37 @@
     <ClCompile Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Items.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\MainMenuState.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\MainMenuState.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\State.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>State</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Bullet.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Enemy.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Game.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Items.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\MainMenuState.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Game.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Player.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\State.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Crazy Zombie.vcxproj">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Crazy Zombie.vcxproj.filters">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Crazy Zombie.vcxproj.user">
-      <Filter>Source Files</Filter>
-    </None>
+    <ClInclude Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\MainMenuState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
