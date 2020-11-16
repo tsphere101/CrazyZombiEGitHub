@@ -21,13 +21,7 @@
     <ClCompile Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Bullet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Crazy Zombie.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Enemy.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Items.cpp">
@@ -41,6 +35,12 @@
     </ClCompile>
     <ClCompile Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\State.cpp">
       <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Game.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

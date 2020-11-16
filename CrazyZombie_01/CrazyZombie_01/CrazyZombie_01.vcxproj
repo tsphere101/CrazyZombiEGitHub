@@ -20,7 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Bullet.cpp" />
-    <ClCompile Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Crazy Zombie.cpp" />
+    <ClCompile Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\main.cpp" />
     <ClCompile Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Enemy.cpp" />
     <ClCompile Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Game.cpp" />
     <ClCompile Include="..\..\..\Crazy Zombie Game\Crazy Zombie\Crazy Zombie\Items.cpp" />
